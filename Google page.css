@@ -1,0 +1,47 @@
+body {
+    margin-left: 200px;    
+    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+}
+#main_nav {
+    position: absolute;
+    background-color: #ccc;
+    width: 200px
+}
+
+#content {
+    margin-left: 200px;
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+
+
+p {
+    font-size: 100px;
+}
+
+p:first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+li:before {
+    content: "POW! ";
+}
